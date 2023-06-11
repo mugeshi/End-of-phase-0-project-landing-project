@@ -1,0 +1,230 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+header {
+  background-color: black;
+  color: white;
+  padding: 1px;
+}
+
+.logo h1 {
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.logo p {
+  font-size: 14px;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+.hero {
+  text-align: center;
+  margin-bottom: 40px;
+  background-image: url(Design1.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 18px;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.products {
+  margin-bottom: 40px;
+}
+
+.products h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+.product-card img {
+  width: 50%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.product-card h4 {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.newsletter {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.newsletter h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.newsletter form {
+  margin-top: 10px;
+}
+
+.newsletter input[type="email"] {
+  width: 300px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.newsletter button[type="submit"] {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-left: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.about-us {
+  margin-bottom: 40px;
+}
+
+.about-us h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.team {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.team h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.team-members {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.team-member-card img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.team-member-card h4 {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.team-member-card p {
+  font-size: 14px;
+  color: #666;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+
+.footer-components {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-components h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.contact-us p {
+  margin-bottom: 5px;
+}
+
+.subscribe input[type="email"] {
+  width: 200px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.subscribe button[type="submit"] {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-left: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.follow-us img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
